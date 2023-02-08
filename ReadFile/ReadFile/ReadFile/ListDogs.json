@@ -1,0 +1,42 @@
+﻿//Create Add item, general, text file, Name it and instead of .txt use .json
+
+//This is used as can create multiple instances very easy and class just have to read arrays
+//each {} is a new instance
+
+//Right click Dependencies/ Manage NuGet Packages/ Browse/ Newtonsoft.Json/install
+
+[
+  //Use Name Value Pairs
+  //"":"",
+  //"Name of  Item" : "Text" ,
+
+  //Dog 1
+  {
+    "Breed": "Labrador",
+    "Size": "Large",
+    "Origin": "NewFoundLand",
+    "Grooming": "Medium",
+    "Exercise": "Medium",
+    "Temper": "Placid"
+  },
+
+  //Dog 2
+  {
+    "Breed": "St.Bernard",
+    "Size": "Giant",
+    "Origin": "Switzerland",
+    "Grooming": "Demanding",
+    "Exercise": "Medium",
+    "Temper": "Placid"
+  },
+
+  //Dog 3
+  {
+    "Breed": "Jack Russel Terrier",
+    "Size": "Small",
+    "Origin": "England",
+    "Grooming": "Easy",
+    "Exercise": "Demanding",
+    "Temper": "Loyal"
+  }
+]

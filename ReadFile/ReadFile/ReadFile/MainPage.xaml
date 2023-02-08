@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReadFile.MainPage">
+    
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        
+    <StackLayout Orientation="Horizontal">
+        <Label Text="Enter a Filename" Margin="5,5"/>
+        <Entry x:Name="EntryFileName" Text="test" 
+               HorizontalOptions="Center" Margin="5,5"/>
+    </StackLayout>
+
+    <Label Text="File Data" HorizontalOptions="Center" Margin="0,5"/>
+    <Label x:Name="LblFileText" Text="" />
+
+    <StackLayout Orientation="Horizontal">
+        <Button x:Name="BtnCreateFile" Text="Create File" HorizontalOptions="Center"
+                Margin="0,5" Clicked="BtnCreateFile_Clicked"/>
+        
+        <Button x:Name="BtnReadFile" Text="Read File" HorizontalOptions="Center"
+                Margin="0,5" Clicked="BtnReadFile_Clicked"/>
+    </StackLayout>
+        
+    </StackLayout>
+</ContentPage>
